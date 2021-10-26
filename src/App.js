@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <Navbar bg='dark'>
         <Navbar.Brand>
-          Logo
+          Logo app
         </Navbar.Brand>
       </Navbar>
     </div>
