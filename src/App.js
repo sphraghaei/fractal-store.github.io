@@ -1,18 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css'
-import { Navbar } from 'react-bootstrap'
-
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className='App'>
-      <Navbar bg='dark'>
-        <Navbar.Brand>
-          Logo app
-        </Navbar.Brand>
-      </Navbar>
-    </div>
+    <Navbar/>
   );
 }
 
